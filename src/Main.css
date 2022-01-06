@@ -1,0 +1,111 @@
+.main {
+  background-color: white;
+  width: auto;
+  border-radius: 20px;
+  height: 500px;
+  max-width: 2000px;
+}
+
+.main > .head1 > .h3 {
+  padding-left: 450px;
+  color: black;
+}
+
+.main > .span > .span-text {
+  overflow-wrap: normal;
+  padding-left: 250px;
+}
+
+.main > .input {
+  margin-left: 500px;
+  width: auto;
+  height: 50px;
+}
+
+.main > .input > input {
+  margin-top: 5px;
+  height: 100px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.main > .input > .h5 {
+  padding: 30px;
+  padding-left: 50px;
+}
+
+.main > .input > .box {
+  padding-left: 50px;
+  width: auto;
+  height: auto;
+}
+
+.main > .input > .box > .button {
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: rgb(52, 52, 223);
+  color: white;
+}
+
+.main > .input > .box > .h4 {
+  padding: 30px;
+  padding-left: 70px;
+  color: rgb(27, 27, 153);
+}
+
+@media only screen and (max-width: 414px) {
+  .main {
+    border-radius: 10px;
+    margin-top: 0;
+    height: 400px;
+  }
+
+  .main > .head1 > .h3 {
+    padding-left: 5px;
+    margin-bottom: 10px;
+  }
+
+  .main > .span > .span-text {
+    padding-left: 5px;
+    margin-bottom: 10px;
+  }
+
+  .main > .input {
+    margin-left: 50px;
+  }
+  .main > .input > input {
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .main {
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .main {
+    border-radius: 10px;
+    margin-top: 0;
+    height: 400px;
+  }
+
+  .main > .head1 > .h3 {
+    padding-left: 5px;
+    margin-bottom: 10px;
+  }
+
+  .main > .span > .span-text {
+    padding-left: 5px;
+    margin-bottom: 10px;
+  }
+
+  .main > .input {
+    margin-left: 50px;
+  }
+  .main > .input > input {
+    height: 50px;
+  }
+}
